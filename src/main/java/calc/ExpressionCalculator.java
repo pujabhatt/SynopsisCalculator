@@ -2,30 +2,29 @@ package calc;
 
 import org.apache.log4j.Logger;
 
-public class ExpCalculator {
-	final static Logger logger = Logger.getLogger(ExpCalculator.class);
+public class ExpressionCalculator {
+//	final static Logger logger = Logger.getLogger(ExpressionCalculator.class);
 	String[] inputTokens;
 	int index = 0;
 	long variables[] = new long[26];;
 
 	public long compute(String input) {
 		input = input.replaceAll("\\s", "");
+		System.out.println("input: " + input);
 		inputTokens = input.split("[\\W]+");
 		long result = handleToken(inputTokens[0]);
-		System.out.println("result: " + result);
+		//logger.info("output: " + result);
 		return result;
 	}
 
 	public long handleToken(String token) {
-		logger.info("Inside handletoken for token: "+token);
+		//logger.info("Inside handletoken for token: "+token);
 		long val = 0;
 		if (token.equals("add")) {
 			val = add();
-		}
-		if (token.equals("sub")) {
+		}else if (token.equals("sub")) {
 			val = sub();
-		}
-		else if (token.equals("div")) {
+		}else if (token.equals("div")) {
 			val = divide();
 		} else if (token.equals("mult")) {
 			val = multiply();
@@ -44,7 +43,7 @@ public class ExpCalculator {
 	}
 
 	public long add() {
-		logger.info("Inside add");
+		//logger.info("Inside add");
 		index++;
 		long val1 = handleToken(inputTokens[index]);
 		index++;
@@ -54,7 +53,7 @@ public class ExpCalculator {
 	}
 
 	public long sub() {
-		logger.info("Inside subs");
+		//logger.info("Inside sub");
 		index++;
 		long val1 = handleToken(inputTokens[index]);
 		index++;
@@ -64,7 +63,7 @@ public class ExpCalculator {
 	}
 
 	public long divide() {
-		logger.info("Inside divide");
+		//logger.info("Inside divide");
 		index++;
 		long val1 = handleToken(inputTokens[index]);
 		index++;
@@ -74,7 +73,7 @@ public class ExpCalculator {
 	}
 
 	public long multiply() {
-		logger.info("Inside multiply");
+		//logger.info("Inside multiply");
 		index++;
 		long val1 = handleToken(inputTokens[index]);
 		index++;
@@ -84,10 +83,9 @@ public class ExpCalculator {
 	}
 
 	public long let() {
-		logger.info("Inside let ");
+		//logger.info("Inside let ");
 		index++;
 		char val1 = inputTokens[index].charAt(0);
-		System.out.println("val1: " + val1);
 		index++;
 		variables[val1 - 'a'] = handleToken(inputTokens[index]);
 		index++;
