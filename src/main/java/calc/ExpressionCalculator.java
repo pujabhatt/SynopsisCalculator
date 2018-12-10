@@ -3,22 +3,20 @@ package calc;
 import org.apache.log4j.Logger;
 
 public class ExpressionCalculator {
-//	final static Logger logger = Logger.getLogger(ExpressionCalculator.class);
+	final static Logger logger = Logger.getLogger(ExpressionCalculator.class);
 	String[] inputTokens;
 	int index = 0;
 	long variables[] = new long[26];;
 
 	public long compute(String input) {
 		input = input.replaceAll("\\s", "");
-		System.out.println("input: " + input);
 		inputTokens = input.split("[\\W]+");
 		long result = handleToken(inputTokens[0]);
-		//logger.info("output: " + result);
 		return result;
 	}
 
 	public long handleToken(String token) {
-		//logger.info("Inside handletoken for token: "+token);
+		logger.info("Inside handletoken for token: "+token);
 		long val = 0;
 		if (token.equals("add")) {
 			val = add();
@@ -43,7 +41,7 @@ public class ExpressionCalculator {
 	}
 
 	public long add() {
-		//logger.info("Inside add");
+		logger.debug("Inside add");
 		index++;
 		long val1 = handleToken(inputTokens[index]);
 		index++;
@@ -53,7 +51,7 @@ public class ExpressionCalculator {
 	}
 
 	public long sub() {
-		//logger.info("Inside sub");
+		logger.debug("Inside sub");
 		index++;
 		long val1 = handleToken(inputTokens[index]);
 		index++;
@@ -63,7 +61,7 @@ public class ExpressionCalculator {
 	}
 
 	public long divide() {
-		//logger.info("Inside divide");
+		logger.debug("Inside divide");
 		index++;
 		long val1 = handleToken(inputTokens[index]);
 		index++;
@@ -73,7 +71,7 @@ public class ExpressionCalculator {
 	}
 
 	public long multiply() {
-		//logger.info("Inside multiply");
+		logger.debug("Inside multiply");
 		index++;
 		long val1 = handleToken(inputTokens[index]);
 		index++;
@@ -83,7 +81,7 @@ public class ExpressionCalculator {
 	}
 
 	public long let() {
-		//logger.info("Inside let ");
+		logger.debug("Inside let ");
 		index++;
 		char val1 = inputTokens[index].charAt(0);
 		index++;

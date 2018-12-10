@@ -4,3 +4,40 @@
 2018-12-09 15:46:59 INFO  MainApplication:25 - output: 7
 2018-12-09 15:47:42 INFO  MainApplication:25 - output: 7
 2018-12-09 16:00:04 INFO  MainApplication:25 - output: 7
+2018-12-09 17:18:37 ERROR MainApplication:14 - Please input command line arguments
+2018-12-09 17:18:44 ERROR MainApplication:14 - Please input command line arguments
+2018-12-09 17:21:53 INFO  MainApplication:26 - output: 1
+2018-12-09 17:22:19 INFO  MainApplication:21 - input: add(1,2)
+2018-12-09 17:22:19 INFO  MainApplication:27 - output: 1
+2018-12-09 17:27:14 INFO  MainApplication:10 - Inside Main application
+2018-12-09 17:27:14 INFO  MainApplication:25 - output: 3
+2018-12-09 17:27:32 INFO  MainApplication:10 - Inside Main application
+2018-12-09 17:27:32 INFO  MainApplication:25 - output: 3
+2018-12-09 17:27:59 INFO  MainApplication:10 - Inside Main application
+2018-12-09 17:27:59 INFO  MainApplication:25 - output: 3
+2018-12-09 17:32:14 INFO  MainApplication:10 - Inside Main application
+2018-12-09 17:32:14 INFO  MainApplication:25 - output: 3
+2018-12-09 17:33:36 INFO  MainApplication:10 - Inside Main application
+2018-12-09 17:33:36 INFO  MainApplication:25 - output: 3
+2018-12-09 17:43:24 INFO  MainApplication:10 - Inside Main application
+2018-12-09 17:43:24 INFO  MainApplication:25 - output: 3
+2018-12-09 18:19:00 INFO  MainApplication:10 - Inside Main application
+2018-12-09 18:19:00 INFO  MainApplication:25 - output: 3
+2018-12-09 18:21:58 INFO  MainApplication:10 - Inside Main application
+2018-12-09 18:21:58 INFO  MainApplication:25 - output: 3
+2018-12-09 18:23:35 INFO  MainApplication:10 - Inside Main application
+2018-12-09 18:23:35 INFO  MainApplication:25 - output: 3
+2018-12-09 18:28:35 INFO  MainApplication:10 - Inside Main application
+2018-12-09 18:28:35 INFO  MainApplication:25 - output: 3
+2018-12-09 18:32:00 INFO  MainApplication:10 - Inside Main application
+2018-12-09 18:32:00 INFO  MainApplication:25 - output: 3
+2018-12-09 18:48:17 INFO  MainApplication:10 - Inside Main application
+2018-12-09 18:48:17 ERROR MainApplication:14 - Please input command line arguments
+2018-12-09 18:50:03 INFO  MainApplication:10 - Inside Main application
+2018-12-09 18:50:03 ERROR MainApplication:14 - Please input command line arguments
+2018-12-09 18:50:20 INFO  MainApplication:10 - Inside Main application
+2018-12-09 18:50:20 ERROR MainApplication:14 - Please input command line arguments
+2018-12-09 19:00:18 INFO  MainApplication:10 - Inside Main application
+2018-12-09 19:00:18 INFO  MainApplication:25 - output: 3
+2018-12-09 19:13:22 INFO  MainApplication:10 - Inside Main application
+2018-12-09 19:13:22 INFO  MainApplication:25 - output: 3

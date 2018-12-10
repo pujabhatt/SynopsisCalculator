@@ -7,7 +7,7 @@ public class MainApplication {
 	final static Logger logger = Logger.getLogger(MainApplication.class);
 	
 	public static void main(String args[]) {
-		//logger.info("Inside Main application");
+		logger.debug("Inside Main application");
 		String input =" ";
 		try {
 			if( args.length == 0) {
@@ -16,17 +16,19 @@ public class MainApplication {
 			}
 			else if(args[0].length() < 1) {
 				logger.error("Please input command line arguments");
-				input = args[0];
 			}
+			else {
 			ExpressionCalculator calculator = new ExpressionCalculator();
-	    	 input = "add(1,mult(2,3))";
-		    long result = calculator.compute(input);
+			input = args[0];
+			logger.info("Input: "+ input);
+			long result = calculator.compute(input);
 		    System.out.println("output: "+result);
 		    logger.info("output: "+result);
+			}
 		
 		}
 		catch(Exception e) {
-			//logger.error("Error occured: "+ e.getMessage());
+			logger.error("Error occured: "+ e.getMessage());
 		}
 		
 	}
