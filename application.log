@@ -41,3 +41,38 @@
 2018-12-09 19:00:18 INFO  MainApplication:25 - output: 3
 2018-12-09 19:13:22 INFO  MainApplication:10 - Inside Main application
 2018-12-09 19:13:22 INFO  MainApplication:25 - output: 3
+2018-12-09 19:18:48 INFO  ExpressionCalculator:19 - Inside handletoken for token: add
+2018-12-09 19:18:48 DEBUG ExpressionCalculator:44 - Inside add
+2018-12-09 19:18:48 INFO  ExpressionCalculator:19 - Inside handletoken for token: 1
+2018-12-09 19:18:48 INFO  ExpressionCalculator:19 - Inside handletoken for token: mult
+2018-12-09 19:18:48 DEBUG ExpressionCalculator:74 - Inside multiply
+2018-12-09 19:18:48 INFO  ExpressionCalculator:19 - Inside handletoken for token: 2
+2018-12-09 19:18:48 INFO  ExpressionCalculator:19 - Inside handletoken for token: 3
+2018-12-09 19:18:53 DEBUG MainApplication:10 - Inside Main application
+2018-12-09 19:18:53 INFO  MainApplication:23 - Input: add(1,2)
+2018-12-09 19:18:53 INFO  ExpressionCalculator:19 - Inside handletoken for token: add
+2018-12-09 19:18:53 DEBUG ExpressionCalculator:44 - Inside add
+2018-12-09 19:18:53 INFO  ExpressionCalculator:19 - Inside handletoken for token: 1
+2018-12-09 19:18:53 INFO  ExpressionCalculator:19 - Inside handletoken for token: 2
+2018-12-09 19:18:53 INFO  MainApplication:26 - output: 3
+2018-12-09 19:20:23 DEBUG ExpressionCalculator:19 - Inside handletoken for token: add
+2018-12-09 19:20:23 DEBUG ExpressionCalculator:44 - Inside add
+2018-12-09 19:20:23 DEBUG ExpressionCalculator:19 - Inside handletoken for token: 1
+2018-12-09 19:20:23 DEBUG ExpressionCalculator:19 - Inside handletoken for token: mult
+2018-12-09 19:20:23 DEBUG ExpressionCalculator:74 - Inside multiply
+2018-12-09 19:20:23 DEBUG ExpressionCalculator:19 - Inside handletoken for token: 2
+2018-12-09 19:20:23 DEBUG ExpressionCalculator:19 - Inside handletoken for token: 3
+2018-12-09 19:20:26 DEBUG MainApplication:10 - Inside Main application
+2018-12-09 19:20:26 INFO  MainApplication:23 - Input: add(1,2)
+2018-12-09 19:20:26 DEBUG ExpressionCalculator:19 - Inside handletoken for token: add
+2018-12-09 19:20:26 DEBUG ExpressionCalculator:44 - Inside add
+2018-12-09 19:20:26 DEBUG ExpressionCalculator:19 - Inside handletoken for token: 1
+2018-12-09 19:20:26 DEBUG ExpressionCalculator:19 - Inside handletoken for token: 2
+2018-12-09 19:20:26 INFO  MainApplication:25 - output: 3
+2018-12-09 22:49:42 DEBUG ExpressionCalculator:19 - Inside handletoken for token: add
+2018-12-09 22:49:42 DEBUG ExpressionCalculator:44 - Inside add
+2018-12-09 22:49:42 DEBUG ExpressionCalculator:19 - Inside handletoken for token: 1
+2018-12-09 22:49:42 DEBUG ExpressionCalculator:19 - Inside handletoken for token: mult
+2018-12-09 22:49:42 DEBUG ExpressionCalculator:74 - Inside multiply
+2018-12-09 22:49:42 DEBUG ExpressionCalculator:19 - Inside handletoken for token: 2
+2018-12-09 22:49:42 DEBUG ExpressionCalculator:19 - Inside handletoken for token: 3

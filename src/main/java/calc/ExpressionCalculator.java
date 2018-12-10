@@ -16,7 +16,7 @@ public class ExpressionCalculator {
 	}
 
 	public long handleToken(String token) {
-		logger.info("Inside handletoken for token: "+token);
+		logger.debug("Inside handletoken for token: "+token);
 		long val = 0;
 		if (token.equals("add")) {
 			val = add();

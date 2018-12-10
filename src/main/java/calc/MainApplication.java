@@ -22,7 +22,6 @@ public class MainApplication {
 			input = args[0];
 			logger.info("Input: "+ input);
 			long result = calculator.compute(input);
-		    System.out.println("output: "+result);
 		    logger.info("output: "+result);
 			}
 		
